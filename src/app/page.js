@@ -1,42 +1,14 @@
 import Image from 'next/image'
 import {Button} from '@nextui-org/button'; 
+import Hero from '@/components/Home/Hero';
+import BookingSection from '@/components/Home/Booking';
 
 export default function Home() {
   return (
-
-    <div>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-      <Button className='block'>Click me</Button>
-    </div>
+<div>
+  <Hero />
+  <BookingSection />
+</div>
 
   )
 }
