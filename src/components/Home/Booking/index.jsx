@@ -1,44 +1,24 @@
-import { Button, Card, CardBody } from "@nextui-org/react";
-import Link from 'next/link'
+import PrimaryButton from "@/components/Buttons/PrimaryButton";
+import { Card, CardBody } from "@nextui-org/react";
 export default function BookingSection() {
   return (
-    <div className="container flex flex-col item-center justify-center md:pl-28 p-5">
-      <div className="grid md:grid-cols-2 gap-10 " >
+    <div className="container flex flex-col item-center justify-center mx-auto ">
+      <div className="grid md:grid-cols-2 md:mx-1" >
 
-        <Card>
+        <Card className="lg:rounded-e-none bg-[#ff6600] p-8">
           <CardBody className="text-center">
-            <p>Book on Your Time</p>
-            <Link href={'/'} className="pt-2">
-              <Button radius="md" className="font-semibold rounded-sm text-lg bg-[#A78BFA]">Book Now</Button>
-            </Link>
+            <p className="text-4xl text-white pb-3">Book on Your Time</p>
+            <PrimaryButton textColor={'#ffff'} buttonTitle={'On time booking'} buttonLink={'/ntm'} />
           </CardBody>
         </Card>
-        <Card>
+        <Card className="lg:rounded-s-none bg-[#1d284b] p-8">
           <CardBody className="text-center">
-            <p>Returning Customer Click here to log in to your hub</p>
-            <Link href={'#'} className="pt-2">
-              <Button radius="md" className="font-semibold rounded-sm text-lg bg-[#A78BFA]">
-                Login
-              </Button>
-              </Link>
+            <p className="text-4xl pb-3 text-white">Returning Customer Click here to log in to your hub</p>
+            <PrimaryButton textColor={'#ffff'} buttonTitle={'Login your hub'} buttonLink={'/ntm'} />
           </CardBody>
         </Card>
 
-        {/* <Card className="bg-[#A78BFA]">
-            <CardBody className="!p-0">
-              <Button radius="md" className="bg-transparent  font-semibold rounded-sm text-lg">
-                Book on Your Time
-              </Button>
-            </CardBody>
-          </Card>
-          <Card className="bg-[#A78BFA] ">
-            <CardBody className="!p-0">
-              <Link href={'/'} radius="md" className="bg-transparent  font-semibold rounded-sm text-lg">
-              Returning Customer Click here to log in to your hub
 
-              </Link>
-            </CardBody>
-          </Card> */}
 
 
 
