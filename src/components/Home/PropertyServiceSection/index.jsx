@@ -39,7 +39,7 @@ export default function PropertyServiceSection() {
                 <p>
                     Welcome to our distinguished appliance repair service, owned and operated by Cody Zimmerman, a seasoned professional in the industry since 2003. Cody's extensive background encompasses Factory Authorization for renowned brands such as Bosch, Thermador, Dacor, Whirlpool, Maytag, KitchenAid, Frigidaire, Electrolux, GE, Samsung, LG, and more. This authorization has afforded him the privilege of participating in Factory Training programs organized by these manufacturers, elevating his expertise.
                 </p>
-                <p>
+                <p className='py-5'>
                     Motivated by an unwavering commitment to providing exceptional service, Cody has ventured independently, driven by past experiences with prominent repair companies that fell short of expectations. Fueled by a determination to present a superior alternative in appliance repair, Cody places a premium on customer relations and addresses employment concerns, ensuring a "Better Solution to Appliance Repair." Our objective is to guarantee fair pricing, efficient repairs, and minimal disruption to your daily routine.
                 </p>
                 <p>
@@ -49,7 +49,7 @@ export default function PropertyServiceSection() {
             </div>
             
         </div>
-        <div className='flex justify-center items-center'>
+        <div className='flex justify-center items-center pt-10'>
         <PrimaryButton textColor={'#00000'} buttonLink={'/'}  buttonTitle={'Property Management Booking'}/>
         </div>
        </div>
