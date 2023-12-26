@@ -4,7 +4,7 @@ import Contact from "./Contact";
 
 const ContactForm = () => {
   return (
-    <div className="lg:flex lg:flex-row-reverse lg:w-2/4 mx-auto my-8">
+    <div className="lg:flex lg:flex-row-reverse  mx-auto my-8">
       <div className="lg:w-2/4">
         <Contact></Contact>
       </div>
