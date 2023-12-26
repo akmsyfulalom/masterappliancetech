@@ -8,13 +8,13 @@ export default function BookingSection() {
         <Card className="lg:rounded-e-none bg-[#ff6600] p-8">
           <CardBody className="text-center">
             <p className="text-4xl text-white pb-3">Book on Your Time</p>
-            <PrimaryButton buttonTitle={'On time booking'} buttonLink={'/ntm'} />
+            <PrimaryButton textColor={'#ffff'} buttonTitle={'On time booking'} buttonLink={'/ntm'} />
           </CardBody>
         </Card>
         <Card className="lg:rounded-s-none bg-[#1d284b] p-8">
           <CardBody className="text-center">
             <p className="text-4xl pb-3 text-white">Returning Customer Click here to log in to your hub</p>
-            <PrimaryButton buttonTitle={'Login your hub'} buttonLink={'/ntm'} />
+            <PrimaryButton textColor={'#ffff'} buttonTitle={'Login your hub'} buttonLink={'/ntm'} />
           </CardBody>
         </Card>
 
