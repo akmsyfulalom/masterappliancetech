@@ -12,7 +12,7 @@ const Pmanagement = () => {
                     <div data-aos="fade-right" className="lg:w-2/4 inline">
                         <Image
                             isZoomed
-                            className="max-h-[300px]"
+                            className="max-h-[300px] object-fill w-full"
                             alt="NextUI Fruit Image with Zoom"
                             src="https://i.ibb.co/k9Mw3PX/gleeful-repairman.jpg"
                         />
