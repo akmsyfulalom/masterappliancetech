@@ -48,8 +48,8 @@ export default function PrimaryNavbar() {
     ]
 
     return (
-        <Navbar onMenuOpenChange={setIsMenuOpen} shouldHideOnScroll className="bg-black text-white">
-            <NavbarContent>
+        <Navbar onMenuOpenChange={setIsMenuOpen} shouldHideOnScroll    className="bg-black text-white ">
+            <NavbarContent >
                 <NavbarMenuToggle
                     aria-label={isMenuOpen ? "Close menu" : "Open menu"}
                     className="sm:hidden"
@@ -65,7 +65,7 @@ export default function PrimaryNavbar() {
             </NavbarContent>
 
 
-            <NavbarContent className="hidden sm:flex gap-4" justify="center">
+            <NavbarContent className="hidden sm:flex gap-4 justify-center " justify="center">
                 {
                     primaryMenuItems?.map((primaryMenuItem) => <NavbarItem key={primaryMenuItem?.id}>
                         <Link className="text-white" color="foreground" href={primaryMenuItem?.link}>

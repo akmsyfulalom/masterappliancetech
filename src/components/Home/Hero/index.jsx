@@ -4,8 +4,8 @@ export default function Hero() {
     return (
         <div>
             <section className=" dark:text-gray-100">
-                <div className="container grid lg:grid-cols-5 md:gap-10 grid-cols-1 p-6 mx-auto sm:py-12 lg:py-24  lg:justify-between ">
-                    <div className="lg:col-span-2  p-6 mt-8 lg:mt-0 flex items-center justify-center">
+                <div className="container grid lg:grid-cols-5 md:gap-10 grid-cols-1  mx-auto sm:py-12 lg:py-24  lg:justify-between ">
+                    <div className="lg:col-span-2  mt-8 lg:mt-0 flex items-center justify-center">
                         <Image width={400} height={400} src="/bgImageRightNow.png" alt="" className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" />
                     </div>
                     <div className="flex flex-col justify-center items-center text-center rounded-sm lg:col-span-3">
