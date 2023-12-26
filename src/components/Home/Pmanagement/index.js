@@ -2,7 +2,7 @@ import { Image } from "@nextui-org/react";
 
 const Pmanagement = () => {
     return (
-        <div className="lg:w-2/4 mx-auto">
+        <div className=" mx-auto">
             <div className="flex justify-center mb-8">
                 <h1 className="px-6 py-2 bg-[#ff6600] text-white text-2xl">Property Management Booking</h1>
             </div>
@@ -12,7 +12,7 @@ const Pmanagement = () => {
                     <div className="lg:w-2/4 inline">
                         <Image
                             isZoomed
-                            className="max-h-[500px]"
+                            className="max-h-[300px]"
                             alt="NextUI Fruit Image with Zoom"
                             src="https://i.ibb.co/k9Mw3PX/gleeful-repairman.jpg"
                         />
