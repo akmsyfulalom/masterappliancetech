@@ -2,7 +2,8 @@
 import BookingSection from '@/components/Home/Booking';
 import ContactForm from '@/components/Home/ContactForm/ContactForm';
 import Hero from '@/components/Home/Hero';
-import Pmanagement from '@/components/Home/Pmanagement';
+// import Pmanagement from '@/components/Home/Pmanagement';
+import PropertyServiceSection from '@/components/Home/PropertyServiceSection';
 import Testimonials from '@/components/Home/Testimonials';
 
 import AOS from 'aos';
@@ -25,7 +26,8 @@ export default function Home() {
       {/* <Slidebar></Slidebar> */}
       <Hero />
       <BookingSection />
-      <Pmanagement></Pmanagement>
+      {/* <Pmanagement></Pmanagement> */}
+      <PropertyServiceSection />
       <Testimonials></Testimonials>
       <ContactForm></ContactForm>
       {/* <div data-aos="fade-up">................</div> */}

@@ -2,7 +2,7 @@ import { Image } from "@nextui-org/react";
 
 const Pmanagement = () => {
     return (
-        <div className="lg:w-4/6 mx-auto">
+        <div className=" mx-auto">
             <div className="flex justify-center mb-8">
                 <h1 className="px-6 py-2 bg-[#ff6600] text-white text-2xl">Property Management Booking</h1>
             </div>

@@ -1,8 +1,9 @@
+import PrimaryButton from "@/components/Buttons/PrimaryButton";
 import { Avatar, Badge, Card, CardBody, CardFooter, CardHeader, Divider } from "@nextui-org/react";
 
 const Testimonials = () => {
     return (
-        <div className="m-4 text-center">
+        <div data-aos="zoom-in-up" className="m-4 text-center">
 
             <div className="flex justify-center">
                 <h1 className="py-2 bg-[#ff6600] text-white text-2xl lg:w-2/12">Testimonials</h1>
@@ -228,6 +229,10 @@ const Testimonials = () => {
                 </Card>
 
 
+            </div>
+
+            <div className=" flex justify-center items-center py-10">
+            <PrimaryButton textColor={'#000000'} buttonLink={'/reviews'} buttonTitle={'All Reviews'}/>
             </div>
         </div>
     );
