@@ -3,7 +3,7 @@ import React from 'react'
 export default function page() {
   return (
     <div>
-      booking page
+      booking page roght now 
     </div>
   )
 }
