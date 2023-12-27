@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
         <Providers>
           <Topvar />
           <PrimaryNavbar />
-          <div className='lg:mx-20'>
+          <div className='lg:mx-20 mx-10'>
             {children}
           </div>
           <Footer />
