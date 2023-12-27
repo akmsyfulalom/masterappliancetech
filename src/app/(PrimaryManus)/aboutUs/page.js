@@ -1,8 +1,10 @@
 import Team from "@/components/About/Team";
-import HowItWorks from "@/components/HowItWorks";
 import { FaLongArrowAltRight } from "react-icons/fa";
-
+import Link from 'next/link'
 import Image from 'next/image'
+import HowItWorks from "@/components/About/HowItWorks";
+import PropertyServiceAbout from "@/components/About/PropertyServiceAbout";
+
 export default function page() {
   return (
     <div className="">
@@ -19,12 +21,13 @@ export default function page() {
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-4xl md:text-5xl lg:text-7xl font-bold">ABOUT US</div>
         <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-orange-500 w-[150px] h-[50px]  " style={{ borderTopLeftRadius: '25px', borderTopRightRadius: '25px' }}>
           <p className="text-center text-white font-bold pt-4 flex items-center justify-center gap-2">
-            <span>Home</span>
+            <Link href="/">Home</Link>
             <FaLongArrowAltRight />
             <span>About</span>
           </p>
         </div>
       </div>
+      <PropertyServiceAbout />
       <HowItWorks></HowItWorks>
       <Team></Team>
     </div>
