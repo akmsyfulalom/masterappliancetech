@@ -1,6 +1,6 @@
+import PrimaryButton from "@/components/Buttons/PrimaryButton";
 import { Card, CardBody, CardFooter } from "@nextui-org/react";
 import { FaEnvelopeCircleCheck, FaHandsHoldingCircle, FaHouseLaptop, FaSackDollar } from "react-icons/fa6";
-import PrimaryButton from "../Buttons/PrimaryButton";
 
 const cardData = [
     {
