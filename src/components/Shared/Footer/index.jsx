@@ -242,7 +242,7 @@ export default function Footer() {
 
                 <div className="w-full p-4 text-center" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
                     © 2023 Copyright:
-                    <a className="text-white" href="https://tw-elements.com/">TW elements</a>
+                    <a className="text-white" href="https://akmsyful.vercel.app/">Digitize Solutions</a>
                 </div>
 
             </footer>
