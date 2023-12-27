@@ -2,7 +2,7 @@
 import BookingSection from '@/components/Home/Booking';
 import ContactForm from '@/components/Home/ContactForm/ContactForm';
 import Hero from '@/components/Home/Hero';
-import PropertyServiceSection from '@/components/Home/PropertyServiceSection';
+import PropertyServiceSection from '@/components/Home/PropertyServiceSection/PropertyServiceSection';
 import Testimonials from '@/components/Home/Testimonials';
 
 import AOS from 'aos';
@@ -22,8 +22,8 @@ export default function Home() {
 
   return (
     <div>
-    
-      
+
+
       <Hero />
       <BookingSection />
       <PropertyServiceSection />
