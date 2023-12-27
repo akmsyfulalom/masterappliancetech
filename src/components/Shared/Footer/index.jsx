@@ -241,7 +241,7 @@ export default function Footer() {
                 </div>
 
                 <div className="w-full p-4 text-center" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-                    {&copy new Date().getFullYear() } Copyright:
+                    {new Date().getFullYear() &copy } Copyright:
                     <a className="text-white" href="https://akmsyful.vercel.app/">Digitize Solutions</a>
                 </div>
 
