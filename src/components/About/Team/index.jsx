@@ -1,4 +1,5 @@
 import { Card, Image } from "@nextui-org/react";
+import { FaBuilding, FaCheckToSlot, FaHandsHoldingCircle } from "react-icons/fa6";
 import { LiaNetworkWiredSolid } from "react-icons/lia";
 
 const cardData = [
@@ -28,18 +29,22 @@ const epData = [
     {
         title: "Expert Technician",
         count: 280,
+        icon: LiaNetworkWiredSolid,
     },
     {
         title: "Total Branches",
         count: 120,
+        icon: FaBuilding,
     },
     {
         title: "Project Complete",
         count: 348,
+        icon: FaCheckToSlot,
     },
     {
         title: "Happy Customer",
         count: 330,
+        icon: FaHandsHoldingCircle,
     },
 ]
 
@@ -80,7 +85,7 @@ const Team = () => {
                     <div key={index} className="flex items-center lg:items-center h-[50px] max-h-[70px]">
 
                         <div className="p-2">
-                            <LiaNetworkWiredSolid className="text-5xl text-white" />
+                            <data.icon className="text-5xl text-white" />
                         </div>
                         <div className="text-white">
                             <p className="text-4xl font-bold">{data.count}+</p>
