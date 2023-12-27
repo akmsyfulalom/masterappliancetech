@@ -2,6 +2,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 import Link from 'next/link'
 import Image from 'next/image'
 import ContactUs from "@/components/ContactUs/ContactUs";
+import ContactMapAndMailMobile from "@/components/ContactUs/ContactMapAndMailMobile";
 
 export default function page() {
   return (
@@ -26,6 +27,7 @@ export default function page() {
         </div>
       </div>
       <ContactUs />
+      <ContactMapAndMailMobile />
     </div>
   )
 }
