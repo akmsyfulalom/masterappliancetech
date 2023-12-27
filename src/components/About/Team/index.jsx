@@ -42,7 +42,7 @@ const Team = () => {
                                     alt="Woman listing to music"
                                     className="object-cover"
                                     height={200}
-                                    src="/images/hero-card.jpeg"
+                                    src=""
                                     width={200}
                                 />
                             </CardBody>
