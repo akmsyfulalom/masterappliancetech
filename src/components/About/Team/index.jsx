@@ -1,25 +1,25 @@
-import { Card, CardBody, Image } from "@nextui-org/react";
+import { Card, Image } from "@nextui-org/react";
 
 const cardData = [
     {
         name: "Demica Master",
         role: "Main Technician",
-        url: "",
+        url: "/images/1.jpg",
     },
     {
         name: "Margie Burman",
         role: "Junior Technician",
-        url: "",
+        url: "/images/2.jpg",
     },
     {
         name: "Gorrien Hyrick",
         role: "Senior Technician",
-        url: "",
+        url: "/images/3.jpg",
     },
     {
         name: "Jonson Pierce",
         role: "Founder Of Avc",
-        url: "",
+        url: "/images/4.jpg",
     },
 ];
 
@@ -36,17 +36,14 @@ const Team = () => {
             <div className="grid lg:grid-cols-4 justify-around gap-4 mx-auto w-10/12">
                 {cardData.map((card, index) => (
                     <div key={index}>
-                        <Card className="py-4 w-[270px] rounded-none">
-                            <CardBody className="">
-                                <Image
-                                    alt="Woman listing to music"
-                                    className="object-cover"
-                                    height={200}
-                                    src=""
-                                    width={200}
-                                />
-                            </CardBody>
-
+                        <Card className="w-[270px] rounded-none">
+                            <Image
+                                alt="Woman listing to music"
+                                className="object-cover rounded-none "
+                                width="100%"
+                                src={card.url}
+                                height="100%"
+                            />
                         </Card>
                         <Card className="p-4  w-[270px] mt-2 flex-col  rounded-none">
                             <small className="text-default-500">{card.role}</small>
