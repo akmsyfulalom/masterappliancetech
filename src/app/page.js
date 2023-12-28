@@ -1,6 +1,7 @@
 "use client"
 import BookingSection from '@/components/Home/Booking';
 import ContactForm from '@/components/Home/ContactForm/ContactForm';
+import FaqSection from '@/components/Home/Faq';
 import Hero from '@/components/Home/Hero';
 import PropertyServiceSection from '@/components/Home/PropertyServiceSection/PropertyServiceSection';
 import Testimonials from '@/components/Home/Testimonials';
@@ -29,6 +30,7 @@ export default function Home() {
       <PropertyServiceSection />
       <Testimonials></Testimonials>
       <ContactForm></ContactForm>
+      <FaqSection />
     </div>
 
   )
