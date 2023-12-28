@@ -33,7 +33,7 @@ const HowItWorks = () => {
             <div className="bg-[url('https://i.ibb.co/pvwKWK3/feature-bg.jpg')]  mx-auto  py-24">
                 <div className="text-center pb-12">
                     <p className="text-[#ff6600] text-xl font-semibold">How it works</p>
-                    <h2 className="text-wrap lg:w-5/12 mx-auto text-4xl font-bold">
+                    <h2 className="text-wrap lg:w-5/12 mx-auto text-2xl lg:text-4xl font-bold">
                         Making technology again <br />working for you
                     </h2>
                 </div>
@@ -62,14 +62,14 @@ const HowItWorks = () => {
                 <div className="grid md:grid-cols-2 w-10/12">
                     <Card className="lg:rounded-e-none  bg-[#ff6600] p-8">
                         <CardBody className="text-center">
-                            <p className="text-4xl text-white pb-3">
+                            <p className="lg:text-4xl text-2xl text-white pb-3">
                                 Residential Repair Service</p>
                             <PrimaryButton textColor={'#ffff'} buttonTitle={'Service'} buttonLink={'/ntm'} />
                         </CardBody>
                     </Card>
                     <Card className="lg:rounded-s-none  bg-[#1d284b] p-8">
                         <CardBody className="text-center">
-                            <p className="text-4xl pb-3 text-white">
+                            <p className="lg:text-4xl text-2xl pb-3 text-white">
                                 Commercial Repair Service </p>
                             <PrimaryButton textColor={'#ffff'} buttonTitle={'Service'} buttonLink={'/ntm'} />
                         </CardBody>

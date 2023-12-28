@@ -53,8 +53,8 @@ const Team = () => {
         <div className="relative lg:mb-28">
             <div className="bg-[url('https://i.ibb.co/pvwKWK3/feature-bg.jpg')] py-24 mx-auto lg:mt-24">
                 <div className="text-center pb-12">
-                    <p className="text-[#ff6600] text-xl font-semibold">Technician Team</p>
-                    <h2 className="text-wrap lg:w-5/12 mx-auto text-4xl font-bold">
+                    <p className="text-[#ff6600] text-base lg:text-xl font-semibold">Technician Team</p>
+                    <h2 className="text-wrap lg:w-5/12 mx-auto lg:text-4xl text-2xl font-bold">
                         Our dedicated & expert <br />team member
                     </h2>
                 </div>
@@ -79,17 +79,16 @@ const Team = () => {
                     ))}
                 </div>
             </div>
-            <div className="bg-[#ff6600] py-12 flex flex-col sm:flex-col lg:flex-row gap-8 justify-center items-center lg:absolute inset-x-0 bottom-[-110px]">
+            <div className="bg-[#ff6600] py-12 grid lg:grid-cols-4 gap-8 justify-items-center lg:absolute inset-x-0 bottom-[-110px] mx-auto">
 
                 {epData?.map((data, index) => (
-                    <div key={index} className="flex items-center lg:items-center h-[50px] max-h-[70px]">
+                    <div key={index} className="flex items-center justify-center h-[50px] w-full max-h-[70px]">
 
-                        <div className="p-2">
-                            <data.icon className="text-5xl text-white" />
-                        </div>
+                        <data.icon className="lg:text-5xl text-4xl me-4 text-white self-start" />
+
                         <div className="text-white">
-                            <p className="text-4xl font-bold">{data.count}+</p>
-                            <p className="text-1xl">{data.title}</p>
+                            <p className="lg:text-4xl text-xl font-bold">{data.count}+</p>
+                            <p className="lg:text-xl text-sm">{data.title}</p>
                         </div>
 
                     </div>
