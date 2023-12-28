@@ -159,16 +159,16 @@ export default function Footer() {
 
                             <ul className="mb-0 list-none">
                                 <li>
-                                    <Link href="tel:00942222" className="text-white">01752152</Link >
+                                    <Link href="tel:00942222" className="text-white underline">01752152</Link >
                                 </li>
                                 <li>
-                                    <Link href="mailto:admin@and.com" className="text-white">admin@and.com</Link >
+                                    <Link href="mailto:admin@and.com" className="text-white underline">admin@and.com</Link >
                                 </li>
                                 <li>
-                                    <Link href="mailto:contact@abc.com" className="text-white">contact@abc.com</Link >
+                                    <Link href="mailto:contact@abc.com" className="text-white underline">contact@abc.com</Link >
                                 </li>
                                 <li>
-                                    <Link href="/contactUs" className="text-white">Contact Us</Link >
+                                    <Link href="/contactUs" className="text-white underline">Contact Us</Link >
                                 </li>
                             </ul>
                         </div>
@@ -177,17 +177,20 @@ export default function Footer() {
                             <h5 className="mb-2.5 font-bold uppercase">Company</h5>
 
                             <ul className="mb-0 list-none">
-                                <li>
-                                    <Link href="/reviews" className="text-white">Our Reviews</Link >
+                                 <li>
+                                    <Link href="/team" className="text-white underline">Team</Link >
                                 </li>
                                 <li>
-                                    <Link href="/termsAndConditions" className="text-white">Terms And Conditions</Link >
+                                    <Link href="/reviews" className="text-white underline">Our Reviews</Link >
                                 </li>
                                 <li>
-                                    <Link href="/privacyPolicy" className="text-white">Privacy Policy</Link >
+                                    <Link href="/termsAndConditions" className="text-white underline">Terms And Conditions</Link >
                                 </li>
                                 <li>
-                                    <Link href="/refoundPolicyAndConditions" className="text-white">Refound Policy and conditions</Link >
+                                    <Link href="/privacyPolicy" className="text-white underline">Privacy Policy</Link >
+                                </li>
+                                <li>
+                                    <Link href="/refoundPolicyAndConditions" className="text-white underline">Refound Policy and conditions</Link >
                                 </li>
                             </ul>
                         </div>
