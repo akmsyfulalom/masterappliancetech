@@ -50,7 +50,7 @@ const epData = [
 
 const Team = () => {
     return (
-        <div className="relative">
+        <div className="relative lg:mb-28">
             <div className="bg-[url('https://i.ibb.co/pvwKWK3/feature-bg.jpg')] py-24 mx-auto lg:mt-24">
                 <div className="text-center pb-12">
                     <p className="text-[#ff6600] text-xl font-semibold">Technician Team</p>
@@ -79,7 +79,7 @@ const Team = () => {
                     ))}
                 </div>
             </div>
-            <div className="bg-[#ff6600] py-12 flex flex-col sm:flex-col lg:flex-row gap-8 justify-center items-center lg:absolute inset-x-0 top-[-110px]">
+            <div className="bg-[#ff6600] py-12 flex flex-col sm:flex-col lg:flex-row gap-8 justify-center items-center lg:absolute inset-x-0 bottom-[-110px]">
 
                 {epData?.map((data, index) => (
                     <div key={index} className="flex items-center lg:items-center h-[50px] max-h-[70px]">
