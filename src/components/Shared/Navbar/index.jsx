@@ -1,10 +1,9 @@
 /* eslint-disable react/jsx-no-undef */
 "use client"
-import React, { useState } from "react";
-import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Button, NavbarMenuToggle, NavbarMenu, NavbarMenuItem } from "@nextui-org/react";
-import { Image } from "@nextui-org/react";
-import Link from "next/link"
 import PrimaryButtonForNavbar from "@/components/Buttons/PrimaryButtonForNavbar";
+import { Image, Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenu, NavbarMenuItem, NavbarMenuToggle } from "@nextui-org/react";
+import Link from "next/link";
+import { useState } from "react";
 
 export default function PrimaryNavbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -46,10 +45,10 @@ export default function PrimaryNavbar() {
                     className="sm:hidden"
                 />
                 <Link href={'/'}>
-                    <NavbarBrand>
+                    <NavbarBrand className="">
 
-                        <Image src={"/MasterApplianceTechLogo.jpg"} alt="MasterApplianceTechLogo" width={90} height={100} />
-                        <p className="font-bold text-inherit">Master Appliance</p>
+                        <Image src={"/bgImage-logo.png"} alt="bgImage-logo.png" width={30} height={50} className="rounded-none" />
+                        <p className="font-bold text-inherit p-2">Master Appliance</p>
 
                     </NavbarBrand>
                 </Link>
@@ -95,7 +94,7 @@ export default function PrimaryNavbar() {
                     <Link href="#">Login</Link>
                 </NavbarItem>
                 <NavbarItem>
-                <PrimaryButtonForNavbar buttonTitle={'Get Started'} buttonLink={'/'} />
+                    <PrimaryButtonForNavbar buttonTitle={'Get Started'} buttonLink={'/'} />
                 </NavbarItem>
             </NavbarContent>
             <NavbarMenu>
