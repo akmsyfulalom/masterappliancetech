@@ -1,9 +1,10 @@
 "use client"
 import BookingSection from '@/components/Home/Booking';
 import ContactForm from '@/components/Home/ContactForm/ContactForm';
+import FaqSection from '@/components/Home/Faq';
 import Hero from '@/components/Home/Hero';
-// import Pmanagement from '@/components/Home/Pmanagement';
-import PropertyServiceSection from '@/components/Home/PropertyServiceSection';
+import ProjectGallery from '@/components/Home/ProjectGallery';
+import PropertyServiceSection from '@/components/Home/PropertyServiceSection/PropertyServiceSection';
 import Testimonials from '@/components/Home/Testimonials';
 
 import AOS from 'aos';
@@ -23,14 +24,15 @@ export default function Home() {
 
   return (
     <div>
-      {/* <Slidebar></Slidebar> */}
+
+
       <Hero />
       <BookingSection />
-      {/* <Pmanagement></Pmanagement> */}
       <PropertyServiceSection />
       <Testimonials></Testimonials>
+      <ProjectGallery />
       <ContactForm></ContactForm>
-      {/* <div data-aos="fade-up">................</div> */}
+      <FaqSection />
     </div>
 
   )

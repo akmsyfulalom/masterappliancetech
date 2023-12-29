@@ -1,12 +1,16 @@
+import HowItWorks from "@/components/About/HowItWorks";
+import PropertyServiceAbout from "@/components/About/PropertyServiceAbout";
 import Team from "@/components/About/Team";
-import HowItWorks from "@/components/HowItWorks";
+import Image from 'next/image';
 
 export default function page() {
   return (
-    <div>
-      <div className="relative">
-        <img
+    <div className="">
+      <div className="relative ">
+        <Image
           isZoomed
+          width={1200}
+          height={1000}
           className=""
           alt="About Banner"
           src="https://i.ibb.co/wwwV29P/page-banner.jpg"
@@ -20,6 +24,7 @@ export default function page() {
           </p>
         </div>
       </div>
+      <PropertyServiceAbout />
       <HowItWorks></HowItWorks>
       <Team></Team>
     </div>
