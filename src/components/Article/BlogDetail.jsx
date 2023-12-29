@@ -15,7 +15,7 @@ export default function BlogDetail({blog}) {
                     <IoIosArrowForward />
                     <Link className='hover:text-[#3AAE3A] text-[#8689A2]' href="/article">Articles</Link>
                     <IoIosArrowForward />
-                    <p className='text-[#3AAE3A]'>Articale Detail</p>
+                    <p className='text-[#3AAE3A]'>Article Detail</p>
 
                 </div>
             </div>
