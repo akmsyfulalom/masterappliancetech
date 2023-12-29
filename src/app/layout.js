@@ -4,6 +4,7 @@ import Topvar from '@/components/Shared/Topbar';
 import { Montserrat } from 'next/font/google';
 import './globals.css';
 import { Providers } from './provider';
+
 const montserrat = Montserrat({
   subsets: ['latin'],
   variable: "--font-mont"
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
         <Providers>
           <Topvar />
           <PrimaryNavbar />
+        
           <div className='lg:px-20 px-10'>
             {children}
           </div>

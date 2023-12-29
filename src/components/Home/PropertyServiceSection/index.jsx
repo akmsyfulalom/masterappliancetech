@@ -48,7 +48,7 @@ export default function PropertyServiceSection() {
 
             </div>
             <div className='flex justify-center items-center pt-10'>
-                <PrimaryButton textColor={'#00000'} buttonLink={'/'} buttonTitle={'Property Management Booking'} />
+                <PrimaryButton textColor={'#00000'} buttonLink={'/booking#bookForm'} buttonTitle={'Property Management Booking'} />
             </div>
         </div>
     )

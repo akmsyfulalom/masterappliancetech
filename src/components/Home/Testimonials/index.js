@@ -11,7 +11,7 @@ const Testimonials = () => {
             <div className="p-4">
                 <p className="text-3xl text-center">What our customers say</p>
             </div>
-            <div className="grid lg:grid-cols-5 md:grid-cols-2 gap-4">
+            <div className="grid lg:grid-cols-5 md:grid-cols-2 gap-4 justify-items-center">
                 <Card className="max-w-[400px]">
                     <CardHeader className="flex gap-3">
                         <Badge color="danger" placement="top-right">
