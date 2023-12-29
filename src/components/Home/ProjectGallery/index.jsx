@@ -58,7 +58,7 @@ const ProjectGallery = () => {
   return (
     <div className="py-10">
        <div className="flex flex-col justify-center items-center pb-10">
-       <h2 className="mb-3 pl-6 text-3xl font-bold">Frequently asked questions</h2>
+       <h2 className="mb-3 pl-6 text-3xl font-bold">Recent Projects</h2>
         <div className='flex justify-start items-center gap-2'>
                         <Image src='/MasterApplianceTechLogo.jpg' width={50} height={50} alt='logo' />
                         <h3 className='text-[#FF6600] font-semibold'>Master Applience</h3>
