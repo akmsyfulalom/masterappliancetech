@@ -2,7 +2,7 @@ import Blogs from "@/components/Article/Blogs";
 const BASE_URL = "https://masterappliancetech.vercel.app/"
 
 const getData = async () => {
-  const res = await fetch(`${BASE_URL}news.json`);
+  const res = await fetch(`${BASE_URL}newss.json`);
   if (!res.ok) {
     throw new Error("Failed to fetch data ");
 
