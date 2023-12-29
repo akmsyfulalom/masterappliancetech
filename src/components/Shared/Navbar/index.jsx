@@ -130,7 +130,7 @@ export default function PrimaryNavbar() {
                         initial={{ scale: 0, opacity: 0, x: "-50%", y: "-50%" }}
                         animate={{ scale: 1, opacity: 1 }}
 
-                        className="min-w-[70vw] flex flex-col justify-between items-center fixed top-96 left-1/2 -translate-x-1/2 -translate-y-1/2 z-30 bg-dark/90 bg-black/75 rounded-lg backdrop-blur-md py-32">
+                        className="min-w-[70vw] flex flex-col justify-between items-center fixed top-96 left-1/2 -translate-x-1/2 -translate-y-1/2 z-30 bg-dark/90 bg-black/75 rounded-lg backdrop-blur-lg py-32">
 
                         <nav className="flex flex-col justify-center items-center text-white">
                             <CustomMobileLink href="/" title="Home" className="" toggle={handleClick} />
