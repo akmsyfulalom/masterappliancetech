@@ -6,12 +6,12 @@ const Testimonials = () => {
         <div data-aos="zoom-in-up" className="m-4 text-center">
 
             <div className="flex justify-center">
-                <h1 className="py-2 bg-[#ff6600] text-white text-2xl lg:w-2/12">Testimonials</h1>
+                <h1 className="py-2 bg-[#ff6600] text-white text-2xl lg:w-2/12">Reviews</h1>
             </div>
             <div className="p-4">
                 <p className="text-3xl text-center">What our customers say</p>
             </div>
-            <div className="grid lg:grid-cols-5 gap-4">
+            <div className="grid lg:grid-cols-5 md:grid-cols-2 gap-4">
                 <Card className="max-w-[400px]">
                     <CardHeader className="flex gap-3">
                         <Badge color="danger" placement="top-right">
