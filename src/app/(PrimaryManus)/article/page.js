@@ -1,7 +1,7 @@
 import Blogs from "@/components/Article/Blogs";
 
 
-const BASE_URL = "http://localhost:3000/"
+const BASE_URL = "https://masterappliancetech.vercel.app/"
 
 const getData = async () => {
   const res = await fetch(`${BASE_URL}news.json`);
@@ -14,10 +14,10 @@ const getData = async () => {
 
 export default async function page() {
   const blogs = await getData();
-  
+
   return (
     <div>
-      <Blogs blogs={blogs}/>
+      <Blogs blogs={blogs} />
     </div>
   )
 }
