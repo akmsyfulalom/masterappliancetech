@@ -50,7 +50,7 @@ export default function CardForBookPage() {
     </svg>
         <div className="p-6">
          
-          <p className="mb-4 text-base text-neutral-600 text-black">
+          <p className="mb-4 text-base text-neutral-600 ">
           Here's the best part – with Master Appliance Tech, you get the personal touch. Expect reminders leading up to your appointment to ensure you never miss a beat. We'll send you a friendly email 24 hours before your scheduled time.
 
 
