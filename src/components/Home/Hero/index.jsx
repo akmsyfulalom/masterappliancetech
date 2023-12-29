@@ -75,7 +75,7 @@ export default function Hero() {
  
                          </p>
                          <div className="flex justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4 ">
-                             <PrimaryButton textColor={'#ffff'} buttonLink={'/'} buttonTitle={'New Customer Booking'}/>
+                             <PrimaryButton textColor={'#ffff'} buttonLink={'/booking#bookForm'} buttonTitle={'New Customer Booking'}/>
  
                          </div>
                      </div>
