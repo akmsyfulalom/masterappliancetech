@@ -11,8 +11,8 @@ const Testimonials = () => {
             <div className="p-4">
                 <p className="text-3xl text-center">What our customers say</p>
             </div>
-            <div className="grid lg:grid-cols-5 gap-4">
-                <Card className="max-w-[400px]">
+            <div className="grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 justify-center mx-auto gap-4">
+                <Card className="max-w-[400px] mx-auto">
                     <CardHeader className="flex gap-3">
                         <Badge color="danger" placement="top-right">
                             <Avatar
@@ -55,7 +55,7 @@ const Testimonials = () => {
                         </div>
                     </CardFooter>
                 </Card>
-                <Card className="max-w-[400px]">
+                <Card className="max-w-[400px] mx-auto">
                     <CardHeader className="flex gap-3">
                         <Badge color="danger" placement="top-right">
                             <Avatar
@@ -98,7 +98,7 @@ const Testimonials = () => {
                         </div>
                     </CardFooter>
                 </Card>
-                <Card className="max-w-[400px]">
+                <Card className="max-w-[400px] mx-auto">
                     <CardHeader className="flex gap-3">
                         <Badge color="danger" placement="top-right">
                             <Avatar
@@ -141,7 +141,7 @@ const Testimonials = () => {
                         </div>
                     </CardFooter>
                 </Card>
-                <Card className="max-w-[400px]">
+                <Card className="max-w-[400px] mx-auto">
                     <CardHeader className="flex gap-3">
                         <Badge color="danger" placement="top-right">
                             <Avatar
@@ -184,7 +184,7 @@ const Testimonials = () => {
                         </div>
                     </CardFooter>
                 </Card>
-                <Card className="max-w-[400px]">
+                <Card className="max-w-[400px] mx-auto">
                     <CardHeader className="flex gap-3">
                         <Badge color="danger" placement="top-right">
                             <Avatar
@@ -227,12 +227,13 @@ const Testimonials = () => {
                         </div>
                     </CardFooter>
                 </Card>
+
 
 
             </div>
 
             <div className=" flex justify-center items-center py-10">
-            <PrimaryButton textColor={'#000000'} buttonLink={'/reviews'} buttonTitle={'All Reviews'}/>
+                <PrimaryButton textColor={'#000000'} buttonLink={'/reviews'} buttonTitle={'All Reviews'} />
             </div>
         </div>
     );
