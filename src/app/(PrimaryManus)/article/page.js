@@ -1,5 +1,5 @@
 import Blogs from "@/components/Article/Blogs";
-const BASE_URL = "https://masterappliancetech.vercel.app/"
+const BASE_URL = "http://localhost:3000/"
 
 const getData = async () => {
   const res = await fetch(`${BASE_URL}news.json`);
