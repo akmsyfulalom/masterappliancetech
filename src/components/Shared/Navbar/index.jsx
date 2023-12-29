@@ -64,38 +64,14 @@ export default function PrimaryNavbar() {
                         </Link>
                     </NavbarItem>)
                 }
-                {/* <NavbarItem >
-                    <Link className="text-white" color="foreground" href="#">
-                        Home
-                    </Link>
-                </NavbarItem>
-                <NavbarItem isActive>
-                    <Link className="text-white" href="#" aria-current="page">
-                        Booking
-                    </Link>
-                </NavbarItem>
-                <NavbarItem>
-                    <Link className="text-white" color="foreground" href="#">
-                        About Us
-                    </Link>
-                </NavbarItem>
-                <NavbarItem>
-                    <Link className="text-white" color="foreground" href="#">
-                        Our Article
-                    </Link>
-                </NavbarItem>
-                <NavbarItem>
-                    <Link className="text-white" color="foreground" href="#">
-                        Contact Us
-                    </Link>
-                </NavbarItem> */}
+               
             </NavbarContent>
             <NavbarContent justify="end">
                 <NavbarItem className="hidden lg:flex">
-                    <Link href="#">Login</Link>
+                    <Link href="https://clienthub.getjobber.com/client_hubs/623f04d2-9301-4ef0-b667-c67229c82601/login/new?source=share_login">Login</Link>
                 </NavbarItem>
                 <NavbarItem>
-                <PrimaryButtonForNavbar buttonTitle={'Get Started'} buttonLink={'/'} />
+                <PrimaryButtonForNavbar buttonTitle={'Get Started'} buttonLink={'/booking#bookForm'} />
                 </NavbarItem>
             </NavbarContent>
             <NavbarMenu>
