@@ -3,22 +3,34 @@ import Image from 'next/image';
 import Link from 'next/link'
 import { IoIosArrowForward } from 'react-icons/io'
 import {Card, CardBody} from "@nextui-org/react";
+import { FaLongArrowAltRight } from 'react-icons/fa';
 
 
 export default function Blogs({ blogs }) {
 
     return (
         <div className='px-6 mb-20'>
-            <div className='flex flex-col justify-center items-center bg-[#1A3677] py-28 mb-10'>
-                <h2 className='md:text-5xl text-3xl font-bold text-white'>Articles </h2>
-                <div className='flex items-center text-white gap-3 pt-3'>
-                    <Link className='hover:text-[#3AAE3A] text-[#8689A2]' href="/">Home</Link>
-                    <IoIosArrowForward />
-                    <p className='text-[#3AAE3A]'>Article</p>
-                </div>
-            </div>
+           <div className="relative  ">
+        <Image
+          isZoomed
+          width={600}
+          height={900}
+          className=""
+          alt="About Banner"
+          src="/images/aboutpageimage.jpg"
+        />
+        <div className="absolute top-0 left-0 w-full h-full bg-[#1d284b] opacity-85"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-2xl md:text-3xl lg:text-5xl font-bold">Article</div>
+        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-orange-500 w-[150px] h-[50px]  px-6">
+          <p className="text-center text-white font-bold pt-4 flex items-center justify-center gap-2">
+            <Link href="/">Home</Link>
+            <FaLongArrowAltRight />
+            <span>Article</span>
+          </p>
+        </div>
+      </div>
 
-            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 mt-10'>
                 {
                     blogs?.map(news => <Card key={news?.id} >
                         <figure

@@ -5,22 +5,22 @@ import { FaEnvelopeCircleCheck, FaHandsHoldingCircle, FaHouseLaptop, FaSackDolla
 const cardData = [
     {
         title: "Booking Online",
-        description: "Lorem ipsum dolor sit amets consec of tetur adipisicing elit sed.",
+        description: "You can book in a very easy way, you can book from the booking page or in the navigation bar",
         icon: FaHouseLaptop,
     },
     {
         title: "Discuss Budget",
-        description: "Laboris nisi ut aliquip exe ea commodo the coniseqs duis aute.",
+        description: "After confirming the booking, We will discuss everything with your response",
         icon: FaSackDollar,
     },
     {
         title: "Get Confirmation",
-        description: "Ut enim ade minim veniam quis nostrud exerci tation ullamco laboris.",
+        description: "You will be confirmed after we finalize",
         icon: FaEnvelopeCircleCheck,
     },
     {
         title: "Happy Services",
-        description: "Suscipit doarce iaculis class nulam rutrume aliquams vulputa.",
+        description: "You can see the reviews on our service. Our clients are giving us good feedback on our services",
         icon: FaHandsHoldingCircle,
     },
 ];
@@ -58,24 +58,7 @@ const HowItWorks = () => {
                 </div>
 
             </div>
-            {/* <div className="lg:absolute inset-x-0 bottom-[-110px] flex justify-center items-center">
-                <div className="grid md:grid-cols-2 w-10/12">
-                    <Card className="lg:rounded-e-none  bg-[#ff6600] p-8">
-                        <CardBody className="text-center">
-                            <p className="text-4xl text-white pb-3">
-                                Residential Repair Service</p>
-                            <PrimaryButton textColor={'#ffff'} buttonTitle={'Service'} buttonLink={'/ntm'} />
-                        </CardBody>
-                    </Card>
-                    <Card className="lg:rounded-s-none  bg-[#1d284b] p-8">
-                        <CardBody className="text-center">
-                            <p className="text-4xl pb-3 text-white">
-                                Commercial Repair Service </p>
-                            <PrimaryButton textColor={'#ffff'} buttonTitle={'Service'} buttonLink={'/ntm'} />
-                        </CardBody>
-                    </Card>
-                </div>
-            </div> */}
+            
 
         </div>
     );
