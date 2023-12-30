@@ -10,7 +10,7 @@ export default function PropertyServiceSection() {
                     <div className='row-span-2 '>
 
 
-                        <FramerImage width={400} height={600} src={'https://wphix.com/template/airvice-prv/airvice/assets/img/about/about-img-1.jpg'} alt='akm syful web dev project' priority sizes="(mix-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
+                        <FramerImage width={400} height={600} src={'/images/serviceSectionImage1.jpeg'} alt='akm syful web dev project' priority sizes="(mix-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
                             whileHover={{ scale: 1.05 }}
                             transition={{ duration: 0.2 }}
                         />
@@ -29,10 +29,7 @@ export default function PropertyServiceSection() {
 
                 </div>
                 <div data-aos="fade-right" className='md:col-span-1 col-span-2'>
-                    <div className='flex justify-start items-center gap-2'>
-                        <Image src='/MasterApplianceTechLogo.jpg' width={50} height={50} alt='logo' />
-                        <h3 className='text-[#FF6600] font-semibold'>Master Applience</h3>
-                    </div>
+                   
                     <h1 className='text-[#1D284B] md:text-5xl text-4xl 
                 font-bold '>Property Management Booking</h1>
                     <p>

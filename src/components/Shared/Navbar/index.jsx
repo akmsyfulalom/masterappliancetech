@@ -50,34 +50,7 @@ export default function PrimaryNavbar() {
     }
 
 
-    const primaryMenuItems = [
-        {
-            id: 1,
-            title: "Home",
-            link: "/"
-        },
-        {
-            id: 2,
-            title: "Booking",
-            link: "/booking"
-        },
-        {
-            id: 3,
-            title: "About Us",
-            link: "/aboutUs"
-        },
-        {
-            id: 4,
-            title: "Contact Us",
-            link: "/contactUs"
-        },
-        {
-            id: 5,
-            title: "Article",
-            link: "/article"
-        }
 
-    ]
 
     return (
         <Navbar onMenuOpenChange={setIsMenuOpen} shouldHideOnScroll className="bg-white text-black shadow-2xl">
@@ -90,8 +63,8 @@ export default function PrimaryNavbar() {
                 <Link href={'/'}>
                     <NavbarBrand>
 
-                        <Image src={"/MasterApplianceTechLogo.jpg"} alt="MasterApplianceTechLogo" width={90} height={100} />
-                        <p className="font-bold text-inherit">Master Appliance</p>
+                        <Image src={"/masterApplienceLogo.png"} alt="MasterApplianceTechLogo" width={50} height={30} className="rounded-none pb-2" />
+                        <p className="font-bold text-inherit md:text-xl  pl-2">Master Appliance</p>
 
                     </NavbarBrand>
                 </Link>
