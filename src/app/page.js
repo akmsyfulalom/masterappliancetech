@@ -5,6 +5,7 @@ import FaqSection from '@/components/Home/Faq';
 import Hero from '@/components/Home/Hero';
 import ProjectGallery from '@/components/Home/ProjectGallery';
 import PropertyServiceSection from '@/components/Home/PropertyServiceSection/PropertyServiceSection';
+import Reviews from '@/components/Home/Reviews';
 import Testimonials from '@/components/Home/Testimonials';
 
 import AOS from 'aos';
@@ -24,11 +25,10 @@ export default function Home() {
 
   return (
     <div>
-
-
       <Hero />
       <BookingSection />
       <PropertyServiceSection />
+      <Reviews />
       <Testimonials></Testimonials>
       <ProjectGallery />
       <ContactForm></ContactForm>

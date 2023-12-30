@@ -29,7 +29,7 @@ export default function page() {
       </div>
       <PropertyServiceAbout />
       <HowItWorks></HowItWorks>
-      <Team></Team>
+      {/* <Team></Team> */}
     </div>
   )
 }

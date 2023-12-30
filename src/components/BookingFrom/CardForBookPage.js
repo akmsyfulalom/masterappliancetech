@@ -29,7 +29,7 @@ export default function CardForBookPage() {
 
         <div className="p-6">
           <p className="mb-4 text-base  text-neutral-600">
-            Exciting news! Booking with us means you're not just a customer; you're a valued member of our community. We offer a transparent and friendly pricing structure, starting with a Service Call charge of $90, which goes towards the total repair cost. Have multiple appliances in need? No worries! It's just an additional $45 per appliance.
+            Exciting news! Booking with us means you're not just a customer; you're a valued member of our community. We offer a transparent and friendly pricing structure, starting with a Service Call charge of $120, which goes towards the total repair cost. Have multiple appliances in need? No worries! It's just an additional $45 per appliance.
           </p>
         </div>
       </div>

@@ -8,8 +8,8 @@ export default function page() {
   return (
     <div>
       <InfoForBookingPage />
-      <CardForBookPage />
       <JobbarFrom />
+      <CardForBookPage />
     </div>
   )
 }

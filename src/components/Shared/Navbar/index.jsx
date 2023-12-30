@@ -79,7 +79,7 @@ export default function PrimaryNavbar() {
                         <CustomLink href="/" title="Home" className="mr-2" />
                         <CustomLink href="/booking" title="Booking" className="mx-4" />
                         <CustomLink href="/aboutUs " title="About" className="mx-4" />
-                        <CustomLink href="/contactUs" title="Contact" className="ml-4" />
+                        
                         <CustomLink href="/article" title="Article" className="ml-4" />
                     </nav>
 
@@ -109,7 +109,7 @@ export default function PrimaryNavbar() {
                             <CustomMobileLink href="/" title="Home" className="" toggle={handleClick} />
                             <CustomMobileLink href="/booking" title="Booking " className="" toggle={handleClick} />
                             <CustomMobileLink href="/aboutUs" title="About" className="" toggle={handleClick} />
-                            <CustomMobileLink href="/contactUs" title="Contact " className="" toggle={handleClick} />
+                            
                             <CustomMobileLink href="/article" title="Article " className="" toggle={handleClick} />
                         </nav>
 

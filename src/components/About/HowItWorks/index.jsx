@@ -58,7 +58,7 @@ const HowItWorks = () => {
                 </div>
 
             </div>
-            <div className="lg:absolute inset-x-0 bottom-[-110px] flex justify-center items-center">
+            {/* <div className="lg:absolute inset-x-0 bottom-[-110px] flex justify-center items-center">
                 <div className="grid md:grid-cols-2 w-10/12">
                     <Card className="lg:rounded-e-none  bg-[#ff6600] p-8">
                         <CardBody className="text-center">
@@ -75,7 +75,7 @@ const HowItWorks = () => {
                         </CardBody>
                     </Card>
                 </div>
-            </div>
+            </div> */}
 
         </div>
     );

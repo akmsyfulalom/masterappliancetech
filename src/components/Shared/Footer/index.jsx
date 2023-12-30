@@ -133,15 +133,12 @@ export default function Footer() {
 
                     <div className="mb-6">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                            distinctio earum repellat quaerat voluptatibus placeat nam,
-                            commodi optio pariatur est quia magnam eum harum corrupti dicta,
-                            aliquam sequi voluptate quas.
+                        "Experience top-tier appliance repair with Cody Zimmerman, a seasoned industry expert since 2003. Factory Authorized for leading brands like Bosch, Whirlpool, and Samsung, ensuring unmatched expertise for your repairs."
                         </p>
                     </div>
 
 
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3">
+                    <div className="grid md:grid-cols-2 ">
                         <div className="mb-6">
                             <h5 className="mb-2.5 font-bold uppercase">About Us</h5>
 
@@ -154,24 +151,7 @@ export default function Footer() {
                             </div>
                         </div>
 
-                        <div className="mb-6">
-                            <h5 className="mb-2.5 font-bold uppercase">Emergency</h5>
-
-                            <ul className="mb-0 list-none">
-                                <li>
-                                    <Link href="tel:00942222" className="text-white underline">01752152</Link >
-                                </li>
-                                <li>
-                                    <Link href="mailto:admin@and.com" className="text-white underline">admin@and.com</Link >
-                                </li>
-                                <li>
-                                    <Link href="mailto:contact@abc.com" className="text-white underline">contact@abc.com</Link >
-                                </li>
-                                <li>
-                                    <Link href="/contactUs" className="text-white underline">Contact Us</Link >
-                                </li>
-                            </ul>
-                        </div>
+                     
 
                         <div className="mb-6">
                             <h5 className="mb-2.5 font-bold uppercase">Company</h5>

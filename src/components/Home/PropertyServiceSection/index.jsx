@@ -33,7 +33,8 @@ export default function PropertyServiceSection() {
                         <h3 className='text-[#FF6600] font-semibold'>Master Applience</h3>
                     </div>
                     <h1 className='text-[#1D284B] md:text-5xl text-4xl 
-                font-bold '>Property Management Booking</h1>
+                font-bold '>Why Choose Master Appliance Tech
+                </h1>
                     <p>
                         Welcome to our distinguished appliance repair service, owned and operated by Cody Zimmerman, a seasoned professional in the industry since 2003. Cody's extensive background encompasses Factory Authorization for renowned brands such as Bosch, Thermador, Dacor, Whirlpool, Maytag, KitchenAid, Frigidaire, Electrolux, GE, Samsung, LG, and more. This authorization has afforded him the privilege of participating in Factory Training programs organized by these manufacturers, elevating his expertise.
                     </p>
