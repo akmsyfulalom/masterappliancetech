@@ -1,23 +1,34 @@
 'use client'
 import Image from 'next/image'
 import Link from 'next/link'
+import { FaLongArrowAltRight } from 'react-icons/fa'
 import { IoIosArrowForward } from 'react-icons/io'
 
 export default function BlogDetail({blog}) {
 
     return (
         <div className='px-6 mb-20'>
-            <div className='flex flex-col justify-center items-center bg-[#1A3677] py-28 mb-10'>
-                <h2 className='md:text-5xl text-3xl font-bold text-white'>Article </h2>
-                <div className='flex items-center text-white gap-3 pt-3'>
-                    <Link className='hover:text-[#3AAE3A] text-[#8689A2]' href="/">Home</Link>
-                    <IoIosArrowForward />
-                    <Link className='hover:text-[#3AAE3A] text-[#8689A2]' href="/article">Articles</Link>
-                    <IoIosArrowForward />
-                    <p className='text-[#3AAE3A]'>Article Detail</p>
-
-                </div>
-            </div>
+           <div className="relative  ">
+        <Image
+          isZoomed
+          width={600}
+          height={900}
+          className=""
+          alt="About Banner"
+          src="/images/aboutpageimage.jpg"
+        />
+        <div className="absolute top-0 left-0 w-full h-full bg-[#1d284b] opacity-85"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-2xl md:text-3xl lg:text-5xl font-bold">Article</div>
+        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-orange-500  px-6 pb-3">
+          <p className="text-center text-white font-bold pt-4 flex items-center justify-center gap-2">
+            <Link href="/">Home</Link>
+            <FaLongArrowAltRight />
+            <Link href="/article">Article</Link>
+            <FaLongArrowAltRight />
+            <span>Detail</span>
+          </p>
+        </div>
+      </div>
 
             <div className=" bg-gray-50">
                 <div className="py-6 mx-auto">

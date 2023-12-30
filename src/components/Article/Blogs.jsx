@@ -10,7 +10,7 @@ export default function Blogs({ blogs }) {
 
     return (
         <div className='px-6 mb-20'>
-           <div className="relative  ">
+     <div className="relative  ">
         <Image
           isZoomed
           width={600}
