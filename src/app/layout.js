@@ -12,8 +12,8 @@ const montserrat = Montserrat({
 })
 
 export const metadata = {
-  title: 'Master Appliance',
-  description: 'Master appliance tech',
+  title: 'Master Appliance Tech',
+  description: '"Experience top-tier appliance repair with Cody Zimmerman, a seasoned industry expert since 2003. Factory Authorized for leading brands like Bosch, Whirlpool, and Samsung, ensuring unmatched expertise for your repairs."',
 }
 
 export default function RootLayout({ children }) {
