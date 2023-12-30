@@ -18,7 +18,8 @@ export default function InfoForBookingPage() {
                             </span>{' '}
                            
                         </h2>
-                        
+                        <p className='text-xl font-semibold'>Expert Appliance Repair: $120 Service Call & 1-Year Warranty for Peace of Mind!
+Book Your Appliance Repair Service Online and Get You Appliances Running Smoothly Again!</p>
                     </div>
 
                     

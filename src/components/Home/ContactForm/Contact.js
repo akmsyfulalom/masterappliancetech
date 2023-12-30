@@ -13,7 +13,7 @@ const Contact = () => {
       <div className="flex items-center justify-around text-white w-full">
         <form onSubmit={sendEmail} className="w-full">
           <div className="rounded-lg w-full xl:mr-40 bg-[#ff6600] p-8">
-            <p className=" text-3xl">Free Estimate</p>
+            <p className=" text-3xl">Send a message get a quick ballpark idea of cost</p>
             <div className="form-control w-full mt-5">
               <label className="label">
                 <span className="label-text">your name *</span>

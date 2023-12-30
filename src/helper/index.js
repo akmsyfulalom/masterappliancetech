@@ -25,7 +25,7 @@ export const getBlogView = async (id) => {
 
 const getServiceData = async () => {
     try {
-        const res = await fetch(`${BASE_URL}corporateservicestaqwaint.json`);
+        const res = await fetch(`${BASE_URL}json/review.json`);
         if (!res.ok) {
             throw new Error("Failed to fetch datas");
         }
@@ -36,16 +36,7 @@ const getServiceData = async () => {
     }
 };
 
-export const getCorporateServiceDetail = async (id) => {
-    let item = await getServiceData();
 
-    if (!Array.isArray(item)) {
-        item = item.items || [];
-    }
-
-    const corporateServiceDetail = item.find(serviceDetail => serviceDetail?.id === id);
-    return corporateServiceDetail;
-};
 
 
 

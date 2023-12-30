@@ -17,8 +17,8 @@ export default function BookingSection() {
           </CardBody>
         </Card>
       </div>
-      <h3 className="text-white/90 py-10 text-center">
-        Expert Appliance Repair: $90 Service Call & 1-Year Warranty for Peace of Mind! <br /> Book Your Appliance Repair Service Online and Get You Appliances Running Smoothly Again!
+      <h3 className="text-secondary py-10 text-center text-xl font-semibold">
+        Expert Appliance Repair: $120 Service Call & 1-Year Warranty for Peace of Mind! <br /> Book Your Appliance Repair Service Online and Get You Appliances Running Smoothly Again!
       </h3>
     </div>
   )

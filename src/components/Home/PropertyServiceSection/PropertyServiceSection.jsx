@@ -1,38 +1,21 @@
 import PrimaryButton from '@/components/Buttons/PrimaryButton';
 import { motion } from "framer-motion";
 import Image from "next/image";
-const FramerImage = motion(Image)
+
 export default function PropertyServiceSection() {
     return (
         <div className='my-20'>
             <div className='grid grid-cols-2  gap-10'>
-                <div  className='grid grid-rows-2 grid-flow-col  gap-5 md:col-span-1 col-span-2'>
-                    <div className='row-span-2 '>
-
-
-                        <FramerImage width={400} height={600} src={'/images/serviceSectionImage1.jpeg'} alt='akm syful web dev project' priority sizes="(mix-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
-                            whileHover={{ scale: 1.05 }}
-                            transition={{ duration: 0.2 }}
-                        />
-
-
-                    </div>
-                    <div className='col-span-1'>
-                        <FramerImage width={300} height={300} src={'https://wphix.com/template/airvice-prv/airvice/assets/img/about/about-img-2.jpg'} alt='akm syful web dev project' priority sizes="(mix-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
-                            whileHover={{ scale: 1.05 }}
-                            transition={{ duration: 0.2 }}
-                        />
-                    </div>
-                    <div className='col-span-1 bg-[#1D284B]  flex justify-center items-center md:text-6xl text-4xl font-bold text-white'><p>
-                        200+ <br /> Project <br /> Done</p> </div>
-
+                <div className='bg-[#1D284B]   md:col-span-1 col-span-2 flex justify-center items-center md:text-6xl text-4xl font-bold text-white'>
+                    <p className='py-10 md:py-2'>
+                        200+ <br /> Project <br /> Done</p>
 
                 </div>
-                <div  className='md:col-span-1 col-span-2'>
-                   
+                <div className='md:col-span-1 col-span-2'>
+
                     <h1 className='text-[#1D284B] md:text-5xl text-4xl 
                 font-bold '>Why Choose Master Appliance Tech
-                </h1>
+                    </h1>
                     <p>
                         Welcome to our distinguished appliance repair service, owned and operated by Cody Zimmerman, a seasoned professional in the industry since 2003. Cody's extensive background encompasses Factory Authorization for renowned brands such as Bosch, Thermador, Dacor, Whirlpool, Maytag, KitchenAid, Frigidaire, Electrolux, GE, Samsung, LG, and more. This authorization has afforded him the privilege of participating in Factory Training programs organized by these manufacturers, elevating his expertise.
                     </p>
@@ -45,7 +28,7 @@ export default function PropertyServiceSection() {
 
             </div>
             <div className='flex justify-center items-center pt-10'>
-                <PrimaryButton textColor={'#00000'} buttonLink={'/'} buttonTitle={'Property Management Booking'} />
+                <PrimaryButton textColor={'#00000'} buttonLink={'/booking#bookForm'} buttonTitle={'Book Now'} />
             </div>
         </div>
     )

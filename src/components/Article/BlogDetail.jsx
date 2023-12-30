@@ -1,7 +1,6 @@
 'use client'
 import Image from 'next/image'
 import Link from 'next/link'
-import { useRouter } from 'next/navigation'
 import { IoIosArrowForward } from 'react-icons/io'
 
 export default function BlogDetail({blog}) {
