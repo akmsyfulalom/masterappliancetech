@@ -38,11 +38,11 @@ const HowItWorks = () => {
                     </h2>
                 </div>
 
-                <div className="grid lg:grid-cols-4 justify-around gap-4 mx-auto w-10/12">
+                <div className="grid lg:grid-cols-4 justify-items-center content-start	 gap-4 mx-auto w-10/12">
                     {cardData.map((card, index) => (
                         <Card key={index} className="pb-4 w-[270px] bg-transparent shadow-none">
                             <CardBody className="flex items-center justify-center overflow-visible mx-auto w-[130px] h-[130px] border border-blue-600 border-dashed rounded-full mb-2">
-                                <div className="flex items-center justify-center w-full h-[125px] rounded-full relative p-4 bg-blue-600 bg-opacity-50"> {/* Add bg-opacity-50 to both bg-blue-600 and bg-white */}
+                                <div className="flex items-center justify-center w-full h-[125px] rounded-full relative p-4 bg-blue-600 bg-opacity-50"> 
                                     <card.icon className="text-5xl text-white" />
                                 </div>
                             </CardBody>
