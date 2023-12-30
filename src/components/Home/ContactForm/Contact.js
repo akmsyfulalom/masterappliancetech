@@ -16,7 +16,7 @@ const Contact = () => {
             <p className=" text-3xl">Send a message get a quick ballpark idea of cost</p>
             <div className="form-control w-full mt-5">
               <label className="label">
-                <span className="label-text">your name *</span>
+                <span className="label-text">Name*</span>
               </label>
               <Input
                 type="text"
@@ -27,7 +27,7 @@ const Contact = () => {
             </div>
             <div className="form-control w-full mt-3">
               <label className="label">
-                <span className="label-text">your email *</span>
+                <span className="label-text">Email*</span>
               </label>
               <Input
                 type="email"
@@ -38,7 +38,7 @@ const Contact = () => {
             </div>
             <div className="form-control w-full mt-3">
               <label className="label">
-                <span className="label-text">your subject *</span>
+                <span className="label-text">Subject*</span>
               </label>
               <Input
                 type="subject"
@@ -49,12 +49,12 @@ const Contact = () => {
             </div>
             <div className="form-control w-full mt-3">
               <label className="label">
-                <span className="label-text">your message *</span>
+                <span className="label-text">Message*</span>
               </label>
               <Textarea name="message" className="input input-bordered w-full" placeholder="Enter your message" id=""></Textarea>
             </div>
             <div>
-              <button className={`relative group overflow-hidden px-4 py-3 mt-8 w-full justify-center rounded-md flex space-x-2 bg-gradient-to-r text-white from-gray-600 via-[#1d284b] to-[#ff6600] hover:to-[#1d284b]`}> Submit
+              <button className={`relative group overflow-hidden px-4 py-3 mt-8 w-full justify-center rounded-md flex space-x-2 bg-gradient-to-r text-white from-gray-600 via-[#1d284b] to-[#ff6600] hover:to-[#1d284b]`}> Send
               </button>
             </div>
           </div>

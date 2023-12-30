@@ -26,7 +26,7 @@ export default function Reviews({ reviews }) {
 
                         </div>
 
-                        <PrimaryButton buttonLink={'/google'} buttonTitle={"Read all reviews"} textColor={'#0F111A'} />
+                        <PrimaryButton buttonLink={'https://www.google.com/search?hl=en-BD&gl=bd&q=Master+Appliance+Tech,+1121+S+Arbutus+St,+Lakewood,+CO+80228,+United+States&ludocid=354040671089599976&lsig=AB86z5VyntIQR66ohaAQDIhf49LM#lrd=0x876b8344e23e9cef:0x4e9ce1d545625e8,3'} buttonTitle={"Read all reviews"} textColor={'#0F111A'} />
 
 
                     </div>
